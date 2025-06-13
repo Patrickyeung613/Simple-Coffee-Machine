@@ -11,13 +11,11 @@ This Python program simulates a simple coffee machine that allows users to order
 - **Turn Off**: Allows the user to shut down the machine.
 
 ## How to Run
-1. Ensure Python 3 is installed on your system.
-2. Save the code in a file named `main.py`.
-3. Run the program using the command:
+1. Run the program using the command:
    ```bash
    python main.py
    ```
-4. Follow the prompt to select a drink (`espresso`, `latte`, `cappuccino`), view the report (`report`), or turn off the machine (`off`).
+2. Follow the prompt to select a drink (`espresso`, `latte`, `cappuccino`), view the report (`report`), or turn off the machine (`off`).
 
 ## Usage
 - **Ordering a Drink**: Enter `espresso`, `latte`, or `cappuccino`. The program checks if there are enough resources, prompts for coin input, and processes the payment. If successful, it dispenses the drink and updates resources and profit.
